@@ -1,0 +1,20 @@
+{
+  "area_info": {
+    "center_lat": 37.3642443,
+    "center_lon": 127.1084674,
+    "bounds": {
+      "left_lon": 127.1054674,
+      "right_lon": 127.1114674,
+      "top_lat": 37.3672443,
+      "bottom_lat": 37.3612443
+    }
+  },
+  "complexes": [],
+  "complex_details": {},
+  "articles": {},
+  "development_plans": {
+    "road": [],
+    "rail": [],
+    "jigu": []
+  }
+}

@@ -1,0 +1,14 @@
+[project]
+name = "playwrite-uv"
+version = "0.1.0"
+description = "네이버 부동산 크롤링 프로그램"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "playwright>=1.41.0",
+    "pandas>=2.0.0",
+    "aiohttp>=3.9.0",
+    "openpyxl>=3.1.5",
+]

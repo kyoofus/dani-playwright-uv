@@ -184,6 +184,7 @@ class NaverRealEstateCrawler:
             async with self.session.get(url, params=params) as response:
                 if response.status == 200:
                     data = await response.json()
+                    logger.info(data)  # 디버깅용
                     articles = data.get('articleList', [])
                     logger.info(f"단지 {complex_no} 매물 정보 {len(articles)}개 수집 완료")
                     return articles

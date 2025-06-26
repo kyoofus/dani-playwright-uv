@@ -89,6 +89,10 @@
 				},
 				body: JSON.stringify(requestData)
 			});
+			
+			// debugging 
+			alert('ok'); 
+
 
 			const result = await response.json();
 
